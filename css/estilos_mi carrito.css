@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+.card-header{
+	background-color: #1E3E4D;
+}
+
+.navbar{
+	background-color: #C1B589;
+}
+
+.card-footer{
+	background-color: #1E3E4D;
+}
+
+.card-footer a{
+	color: white;	
+}
+
+.card-footer a:hover{
+	color: #C1B589;	
+	text-decoration: none;
+}
+
+.btn {
+	border-color: #C1B589;
+    border-width: 5px;
+    width: 35%;
+    border-radius: 9px;
+}
+
+.btn:hover{
+	border-color: #1E3E4D;
+    border-width: 5px;
+    width: 35%;
+    border-radius: 9px;
+}
+
+.col-md-5 .text-center b {
+    color: #F80004;
+}
+.row .col-md-5 .fw-bold.text-center {
+    color: #366073;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.tablitaentrega p b {
+    color: #F80004;
+}
+
+.col-md-5 label a {
+    color: #1E3E4D;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.col-md-5 label a:hover {
+    color: #C1B489;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.col-md-5 .payment-box p {
+    border-color: #6274AD;
+    border: solid;
+	color: black;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.row .col-md-5 .text-center.mx-5 {
+    font-weight: 600;
+    color: #406576;
+}
+.row .col-md-5 .text-center.mx-3 {
+    color: #406576;
+    font-weight: 600;
+}
+
+.payment-box p b {
+    color: #F90004;
+}
+
+.row.mt-5 .col-md-5.text-center .total.mt-5 {
+    font-weight: bold;
+    font-size: 22px;
+}
+.col-md-5.text-center .boton a {
+    color: #000000;
+    font-weight: 600;
+    font-size: 103%;
+}
+
+
+.col-md-5.text-center .total.mt-5 .highlight {
+    color: #FC080C;
+    font-size: 22px;
+}

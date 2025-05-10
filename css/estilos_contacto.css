@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.card-header{
+	background-color: #1E3E4D;
+}
+
+.navbar{
+	background-color: #C1B589;
+}
+
+.card-footer{
+	background-color: #1E3E4D;
+}
+
+.card-footer a{
+	color: white;	
+}
+
+.card-footer a:hover{
+	color: #C1B589;	
+	text-decoration: none;
+}
+
+.btn {
+	border-color: #C1B589;
+    border-width: 5px;
+    width: 20%;
+    border-radius: 9px;
+}
+
+.btn:hover{
+	border-color: #1E3E4D;
+    border-width: 5px;
+    width: 20%;
+    border-radius: 9px;
+}
+
+

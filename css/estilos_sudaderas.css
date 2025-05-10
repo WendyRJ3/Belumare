@@ -1,0 +1,406 @@
+@charset "utf-8";
+
+.card-header{
+	background-color: #1E3E4D;
+}
+
+.navbar{
+	background-color: #C1B589;
+}
+
+.card-footer{
+	background-color: #1E3E4D;
+}
+
+.card-footer a{
+	color: white;	
+}
+
+.card-footer a:hover{
+	color: #C1B589;	
+	text-decoration: none;
+}
+
+/* Sección de personalización */
+        .customize-section {
+            margin-top: 80px;
+            margin-bottom: 70px;
+            text-align: center;
+        }
+
+        .customize-section span {
+            font-size: 28px;
+            font-style: italic;
+            color: gray;
+        }
+
+        .customize-section h2 {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            display: inline;
+            margin-left: 10px;
+            text-decoration: none;
+            color: #366073;
+            font-size: 40px;
+        }
+
+        /* Navegación de productos */
+        .nav-productos {
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .nav-productos .nav-link {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            font-weight: normal;
+            color: #000000;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+        .nav-productos .nav-link:hover {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+            color: #366073;
+            padding: 14px 20px;
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: all 0.2s ease 0s;
+            margin-right: 15px;
+        }
+
+        /* Contenedor principal */
+        .main-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1900px;
+            margin: 40px auto;
+            justify-content: center;
+        }
+
+        /* Carrusel */
+        .carousel-container {
+            width: 100%;
+            max-width: 450px;
+            margin-bottom: 30px;
+        }
+
+        .carousel-title h2 {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            color: #366073;
+            font-size: 40px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .carousel-title h1 {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            color: #366073;
+            font-size: 30px;
+            background: #C1B589;
+            color: #FFFFFF;
+            margin-top: 9px;
+            margin-bottom: 40px;
+            padding: 5px 0;
+            text-align: center;
+        }
+
+        .carousel-inner {
+            overflow: hidden;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            max-height: 600px;
+            object-fit: contain;
+            margin-bottom: 60px;
+        }
+
+        .carousel-control-prev, .carousel-control-next {
+            top: 50%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 10;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+
+        .carousel-control-prev {
+            left: 10px;
+        }
+
+        .carousel-control-next {
+            right: 10px;
+        }
+
+        /* Secciones de formulario */
+        .form-section {
+            background: #FFFFFF;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            height: auto;
+        }
+
+        .sizes h3, .stamping h3, .total h3 {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            color: #366073;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 18px;
+        }
+
+        .sizes h4 {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            color: #366073;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        /* Opciones */
+        .opcion {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .opcion input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .opcion label {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 100;
+        }
+
+        /* Selector de color */
+        .color-selection {
+            text-align: center;
+        }
+
+        .color-selection div {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin: 5px;
+            border: 2px solid #ccc;
+            cursor: pointer;
+        }
+
+        .color-selection div.selected {
+            border: 2px solid #000;
+        }
+
+        /* Botones */
+        .sizes button, .total button, .upload-section input[type="file"] {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #567C8D;
+            background-color: #C1B589;
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .sizes button:hover, .total button:hover, .upload-section input[type="file"]:hover {
+            background-color: #C8D9E6;
+            color: #000000;
+        }
+
+        /* Total */
+        .total p {
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        /* Pie de página */
+        .contenedorpie {
+            height: 160px;
+            display: flex;
+            background-color: #1E3E4D;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        .textosiguenos {
+            color: #FFFFFF;
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            margin: 0 20px;
+            font-size: 32px;
+        }
+
+        .logo_insta, .logo_whatsapp {
+            width: 50px;
+            margin: 0 10px;
+        }
+
+        .instagram, .whatsapp {
+            display: flex;
+            align-items: center;
+        }
+
+        .instapie a, .numerowhats a {
+            color: #FFFFFF;
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .instapie a:hover, .numerowhats a:hover {
+            color: #C1B589;
+        }
+
+        .derechos {
+            color: #FFFFFF;
+            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .navbar-custom .nav-link {
+                font-size: 20px;
+                padding: 12px 15px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+            .customize-section h2 {
+                font-size: 35px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .navbar-custom .nav-link {
+                font-size: 18px;
+                padding: 10px 12px;
+            }
+            
+            .customize-section h2 {
+                font-size: 30px;
+            }
+            
+            .carousel-title h2 {
+                font-size: 35px;
+            }
+            
+            .carousel-title h1 {
+                font-size: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-custom .nav-link {
+                font-size: 16px;
+                padding: 8px 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            
+            .customize-section span {
+                font-size: 24px;
+            }
+            
+            .customize-section h2 {
+                font-size: 28px;
+            }
+            
+            .nav-productos .nav-link {
+                font-size: 15px;
+                padding: 10px 15px;
+            }
+            
+            .form-section {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 576px) {
+			
+            
+            .navbar-custom {
+                height: auto;
+                padding: 10px 0;
+            }
+            
+            .navbar-custom .navbar-nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .navbar-custom .nav-link {
+                width: 100%;
+                text-align: center;
+                margin: 5px 0;
+            }
+            
+            .customize-section {
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+            
+            .customize-section span {
+                font-size: 20px;
+                display: block;
+            }
+            
+            .customize-section h2 {
+                font-size: 24px;
+                display: block;
+                margin-left: 0;
+                margin-top: 10px;
+            }
+            
+            .carousel-title h2 {
+                font-size: 28px;
+            }
+            
+            .carousel-title h1 {
+                font-size: 22px;
+            }
+            
+            .contenedorpie {
+                height: auto;
+                padding: 20px 0;
+            }
+            
+            .textosiguenos {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+            
+            .instagram, .whatsapp {
+                margin-bottom: 15px;
+                justify-content: center;
+            }

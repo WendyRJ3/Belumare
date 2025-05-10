@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.card-header{
+	background-color: #1E3E4D;
+}
+
+.navbar{
+	background-color: #C1B589;
+}
+
+.card-footer{
+	background-color: #1E3E4D;
+}
+
+.card-footer a{
+	color: white;	
+}
+
+.card-footer a:hover{
+	color: #C1B589;	
+	text-decoration: none;
+}
+
+.row .col-md-4.text-center .fw-bold.text-center {
+    color: #1E3E4D;
+}
+.container-fluid.justify-content-center .container.py-5 .text-center.fw-bold.display-5.display-md-4 {
+    color: #1E3E4D;
+}
+.row .col-md-4.text-center .fw-bold.text-center {
+    color: #1E3E4D;
+}
